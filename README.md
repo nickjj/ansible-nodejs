@@ -6,7 +6,7 @@ It is an [Ansible](http://www.ansible.com/home) role to install the latest stabl
 
 Compiling node on a low env VPS/instance could easily take 10 minutes and during that time your CPU is going to be pegged at 100%.
 
-ansible-node solves this by using a rock solid third party apt repository where the author maintains the latest stable version of nodejs for many ubuntu builds. You can also supply your own ppa if you wish to use a different one.
+ansible-node solves this by using a rock solid third party apt repository where the author maintains the latest stable version of nodejs for many ubuntu builds. You can also supply your own ppa if you want a different one.
 
 ## Role variables
 
@@ -17,7 +17,7 @@ nodejs_ppa: "ppa:chris-lea/node.js"
 
 ## Example playbook
 
-For the sake of this mini example let's assume you have a group called **app** and you have a typical `site.yml` file.
+For the sake of this example let's assume you have a group called **app** and you have a typical `site.yml` file.
 
 To use this role edit your `site.yml` file to look something like this:
 
@@ -27,7 +27,7 @@ To use this role edit your `site.yml` file to look something like this:
 - hosts: app
 
   roles:
-    - { role: nickjj.node, tags: node }
+    - { role: nickjj.nodejs, tags: node }
 ```
 
 Let's say you want to edit the ppa repo, you can do this by opening or creating `yourplaybook/group_vars/app.yml` and then making it look something like this:
