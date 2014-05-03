@@ -1,0 +1,9 @@
+---
+- name: ensure ansible's apt_repository dependency is installed
+  apt: pkg=python-apt state=latest update_cache=true cache_valid_time=86400
+
+- name: ensure nodejs apt repository is up to date
+  apt_repository: repo={{ nodejs_ppa }}
+
+- name: ensure nodejs latest stable is installed
+  apt: pkg=nodejs state=latest update_cache=true cache_valid_time=86400
