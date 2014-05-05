@@ -1,6 +1,6 @@
 ## What is ansible-nodejs?
 
-It is an [Ansible](http://www.ansible.com/home) role to install the latest stable version of nodejs without having to compile nodejs on the machine you're setting up.
+It is an [ansible](http://www.ansible.com/home) role to install the latest stable version of nodejs without having to compile nodejs on the machine you're setting up.
 
 ### What problem does it solve and why is it useful?
 
@@ -30,7 +30,7 @@ To use this role edit your `site.yml` file to look something like this:
     - { role: nickjj.nodejs, tags: node }
 ```
 
-Let's say you want to edit the ppa repo, you can do this by opening or creating `yourplaybook/group_vars/app.yml` and then making it look something like this:
+Let's say you want to edit the ppa repo, you can do this by opening or creating `group_vars/app.yml` which is located relative to your `inventory` directory and then making it look something like this:
 
 ```
 ---
