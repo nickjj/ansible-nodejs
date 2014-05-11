@@ -4,7 +4,7 @@ It is an [ansible](http://www.ansible.com/home) role to install the latest stabl
 
 ### What problem does it solve and why is it useful?
 
-Compiling node on a low env VPS/instance could easily take 10 minutes and during that time your CPU is going to be pegged at 100%.
+Compiling node on a low end VPS/instance could easily take 10 minutes and during that time your CPU is going to be pegged at 100%.
 
 ansible-node solves this by using a rock solid third party apt repository where the author maintains the latest stable version of nodejs for many ubuntu builds. You can also supply your own ppa if you want a different one.
 
