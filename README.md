@@ -12,7 +12,11 @@ ansible-node solves this by using a rock solid third party apt repository where 
 
 ```
 ---
+# The ppa to pull in nodejs.
 nodejs_ppa: "ppa:chris-lea/node.js"
+
+# The amount in seconds to cache apt-update.
+apt_cache_valid_time: 86400
 ```
 
 ## Example playbook

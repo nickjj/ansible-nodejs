@@ -1,2 +1,4 @@
 ---
 nodejs_ppa: "ppa:chris-lea/node.js"
+
+apt_cache_valid_time: 86400
