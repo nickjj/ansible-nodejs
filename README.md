@@ -1,4 +1,4 @@
-## What is ansible-nodejs?
+## What is ansible-nodejs? [![Build Status](https://secure.travis-ci.org/nickjj/ansible-nodejs.png)](http://travis-ci.org/nickjj/ansible-nodejs)
 
 It is an [ansible](http://www.ansible.com/home) role to install the latest stable version of nodejs without having to compile nodejs on the machine you're setting up.
 
