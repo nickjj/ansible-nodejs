@@ -1,3 +1,12 @@
+## WARNING: This role will be deprecated very soon
+
+All of the functionality provided by this role and more is available in the [DebOps project](http://debops.org). If you are using some of my roles in conjunction with each other, you will find the move to DebOps most pleasurable.
+
+This role will be **removed** from the **galaxy** and from **github** anywhere from 42 microseconds to 2-3 weeks after you read this message.
+
+---
+
+
 ## What is ansible-nodejs? [![Build Status](https://secure.travis-ci.org/nickjj/ansible-nodejs.png)](http://travis-ci.org/nickjj/ansible-nodejs)
 
 It is an [ansible](http://www.ansible.com/home) role to install the latest stable version of nodejs without having to compile nodejs on the machine you're setting up.
